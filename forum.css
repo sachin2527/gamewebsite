@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+        /* nav bar start  */
+nav{
+    height: 80px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+}
+nav ul li {
+    display: inline-block;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 7px ;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 4px 10px ;
+    margin-right: 40px;
+
+
+}
+nav ul li button a{
+    color: black;
+}
+
+
+nav ul li a:hover{
+    color: rgb(248, 174, 14);
+    
+   
+}
+nav label{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+nav label span{
+    color: orange;
+}
+button{
+    border-radius: 20px;
+    padding: 12px 15px ;
+    text-align: center;
+
+    
+    background-color:yellow;
+    color: black;
+    margin-right: 100px;
+}
+/* nav bar end  */
+
+
+
+                               /* latest news start  */
+
+
+                               .column1{
+width: 30%;
+box-sizing: border-box;
+background-color:yellow;
+color:black;
+font-size: 25px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 300px;
+position: absolute;
+padding-top: 20px;
+font-weight: 500;
+height: 70px;
+
+
+}
+.column2{
+background-color: black;
+color: white;
+font-size: 18px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+width: 70%;
+display: inline-block;
+float: right;
+height: 70px;
+padding-top: 25px;
+
+}
+.column2 span{
+color: black;
+box-sizing: border-box;
+background-color:yellow;
+border-radius: 5px;
+padding: 5px 10px ;
+
+
+}
+#racing{
+background-color:teal;
+color:white;
+}
+#adv{
+background-color: orange;
+color: white;
+}
+#action{
+   background-color: plum;
+   color: black;
+} 
+.spad{
+   padding-top: 200px;
+   padding-bottom: 600px;
+   padding-left: 151px
+}
+
+
+       /* latest news end  */
+
+                                    .header{
+      background-image: url(images/forum.jpg);
+         background-repeat: no-repeat;
+          background-size: cover;
+                                        background-position: left center ;
+         text-align: left center;}
+                                    
+         .layer{
+          width: 100%;
+                                        height: 80vh;
+          background-color: rgba(0, 0,0, 0.355);
+      }
+                                    .layer .header1{
+              padding-top: 30vh
+                                        ;
+                   ;
+                                            float: left;
+                                    
+    
+       }
+       .header1 h1 {
+                                    color: white;
+       font-size: 50px;
+       }
+       .header1 p {
+      color: white;
+       }
+       .header1 span {
+       color: yellow;
+       }
+         /* header image end  */
+
+
+         /* community members  */
+.community-page{
+    background-image: url(images/community-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    
+}
+    .flex1{
+        
+        display: flex;
+            max-width: 1390px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.658);
+            justify-content: space-between;
+    }
+    
+.title{
+    margin-bottom: 69px;
+    font-size: 34px;
+    padding-top: 67px;
+    padding-left: 25px;
+    
+}
+
+.community{
+    margin-bottom:  40px;
+    font-size: 22px;
+    padding-left: 1050px;
+    font-weight: 600;
+}
+.community select{
+    width: 201px;
+    height: 42px;
+    font-size: 18px;
+    padding: 0 18px;
+    color: #1f2225;
+    font-weight: 500;
+}
+.community-list{
+    list-style: none;
+}
+.community-list .community-post .details{
+    padding-left: 120px;
+}
+.community-list .community-post .details h5{
+    
+    font-size: 22px;
+    color: #ff205f;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.community-list .community-post .details h5 span{
+    color: #7a7a7a;
+    padding-left: 16px;
+}
+@media only screen and (max-width: 767px){
+.community-post-list li {
+    padding: 30px 25px 30px ;
+}
+}
+.community-list li {
+    padding: 33px 55px 65px;
+    margin-bottom: 21px;
+    overflow: hidden;
+    border: 1px
+ solid #878787;
+    background: #1f2225;
+}
+.community-list .community-post .details p{
+    color: #ffff;
+}
+.date {
+    font-size: 12px;
+    color: #ffb320;
+    margin-bottom: 18px;
+}
+.community-list .community-post .avatar {
+    width: 63px
+;
+    height: 63px
+;
+    border-radius: 50%;
+    float: left;
+}
+.community-post .attachment{
+    padding-left: 30px ;
+}
+
+/* swiper */
+
+.swiper{
+    padding-top: 67px;
+    margin-bottom: 20px;
+}
+.swiper span{
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 7px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: #131313;
+    margin-right: 10px;
+}
+.swiper .active{
+    background-color: #ffb320;
+}
+.swiper a{
+
+    background-color: gray;
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 7px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: #131313;
+    margin-right: 10px;
+}
+/* .community page end  */
+
+
+/* footer start  */
+
+/* * comments section start  */ 
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+#posts-comments {
+    background: url('images/pattern.png') 0 0 repeat;
+    padding: 90px 0;
+}
+
+#posts-comments .game-warrior {
+    flex-basis: 32%;
+    position: relative;
+}
+
+#posts-comments .game-warrior p {
+    color: #eee;
+    font-weight: 600;
+}
+
+#posts-comments .game-warrior img {
+    margin-bottom: 0.5em;
+}
+
+#posts-comments .game-warrior img.footer-graphic {
+    position: relative;
+    margin-bottom: 0;
+    width: 115%;
+    max-width: 370px;
+}
+
+#posts-comments .posts-comments-box {
+    flex-basis: 28%;
+    background-color: #252525;
+    padding: 20px 20px 25px;
+    border: 1px solid #4a4a4a;
+}
+
+#posts-comments .posts-comments-box h3 {
+    color: #eee;
+}
+
+.post-item {
+    margin-top: 25px;
+}
+
+.post-item:first-child {
+    margin-top: 0;
+}
+
+.post-item:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.post-item img {
+    float: left;
+    width: 30%;
+}
+
+.post-item > div {
+    float: left;
+    margin-left: 5%;
+    width: 65%;
+}
+
+.post-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.post-item > div p {
+    color: #eee;
+    margin: 5px 0;
+    font-size: 0.8em;
+}
+
+.post-item > div small {
+    color: #999;
+    font-size: 0.75em;
+}
+
+.comments-item {
+    margin-top: 1em;
+}
+
+.comments-item:first-child {
+    margin-top: 0;
+}
+
+.comments-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comments-item img {
+    width: 23%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.comments-item > div {
+    float: left;
+    margin-left: 7%;
+    width: 70%;
+}
+
+.comments-item > div p {
+    color: #eee;
+    font-size: 0.8em;
+    margin: 0 0 5px;
+}
+
+.comments-item > div p span {
+    color: #999;
+}
+
+.comments-item > div p span.author {
+    color: #E92159;
+}
+
+.comments-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+#posts-comments .game-warrior label{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: cursive;
+}
+#posts-comments .game-warrior label span {
+    color: orange;
+    font-weight: 300;
+    font-family: cursive;
+}
+/* comment section end  */
+#scroll-top {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.979);
+    color: yellow;
+    font-size: 34px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 100;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+
+
+/* for mobile*/
+@media(max-width:768px){
+    
+}

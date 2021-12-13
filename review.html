@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Game Review </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+        /* nav bar start  */
+nav{
+    height: 80px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+}
+nav ul li {
+    display: inline-block;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 7px ;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 4px 10px ;
+    margin-right: 40px;
+
+
+}
+nav ul li button a{
+    color: black;
+}
+
+
+nav ul li a:hover{
+    color: rgb(248, 174, 14);
+    
+   
+}
+nav label{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+nav label span{
+    color: orange;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 15px ;
+    text-align: center;
+
+    
+    background-color:yellow;
+    color: black;
+    margin-right: 100px;
+}
+/* nav bar end  */
+
+
+
+                               /* latest news start  */
+
+
+                               .column1{
+width: 30%;
+box-sizing: border-box;
+background-color:yellow;
+color:black;
+font-size: 25px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 300px;
+position: absolute;
+padding-top: 20px;
+font-weight: 500;
+height: 70px;
+
+
+}
+.column2{
+background-color: black;
+color: white;
+font-size: 18px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+width: 70%;
+display: inline-block;
+float: right;
+height: 70px;
+padding-top: 25px;
+
+}
+.column2 span{
+color: black;
+box-sizing: border-box;
+background-color:yellow;
+border-radius: 5px;
+padding: 5px 10px ;
+
+
+}
+#racing{
+background-color:teal;
+color:white;
+}
+#adv{
+background-color: orange;
+color: white;
+}
+#action{
+   background-color: plum;
+   color: black;
+} 
+.spad{
+   padding-top: 200px;
+   padding-bottom: 600px;
+   padding-left: 151px
+}
+
+
+                                    /* latest news end  */
+
+    .header{
+    background-image: url(images/racing1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center ;
+    text-align: left center;}
+
+    .layer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0,0, 0.355);
+}
+.layer .header1{
+    padding-top: 30vh
+    ;
+        margin: 0 20px
+        ;
+        float: left;
+
+
+}
+.header1 h1 {
+color: white;
+font-size: 50px;
+}
+.header1 p {
+color: white;
+}
+.header1 span {
+color: yellow;
+}
+
+                                    /* header image end  */
+
+        /* review page section start   */
+
+
+        .spad {
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-6{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.review-page .Gta {
+    margin-bottom: 63px;
+}
+.review-page .spider {
+    margin-bottom: 63px;
+}
+.review-page .overwatch {
+    margin-bottom: 63px;
+}
+.review-page .Avatar{
+    margin-bottom: 63px;
+}
+.review-page .cyber{
+    margin-bottom: 63px;
+}
+.review-page .Anthem {
+    margin-bottom: 63px;
+}
+.overwatch .review-cover .score.yellow {
+    background: #ffb320;
+}
+.Gta .review-cover .score.yellow {
+    background: #ffb320;
+}
+.cyber .review-cover .score.yellow {
+    background: #ffb320;
+}
+.Avatar .review-cover .score.yellow {
+    background: #ffb320;
+}
+.Anthem .review-cover .score.yellow {
+    background: #ffb320;
+}
+.spider .review-cover .score.yellow {
+    background: #ffb320;
+}
+ .review-cover .score {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: -27px;
+    left: 26px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1;
+}
+ .review-text {
+    text-align: center;
+}
+.overwatch .review-cover {
+    height: 450px;
+    width: 450px;
+    background-image: url(images/cod1.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+}
+.Gta .review-cover {
+    height: 450px;
+    width: 450px;
+    background-image: url(images/gta1.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+}
+.Avatar .review-cover {
+    height: 450px;
+    width: 450px;
+    background-image: url(images/avatar.jfif);
+    background-size: cover;
+    background-position: top center;
+    
+}
+.spider .review-cover {
+    height: 450px;
+    width: 450px;
+    background-image: url(images/spider.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+}
+.cyber .review-cover {
+    height: 450px;
+    width: 450px;
+    background-image: url(images/cyber.jfif);
+    background-size: cover;
+    background-position: top center;
+    
+}
+.Anthem .review-cover {
+    height: 450px;
+    width: 450px;
+    background-image: url(images/gta1.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+}
+.btn{
+    background-color: #ffb320;
+    color: black;
+    font-size: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* comments section start  */
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+#posts-comments {
+    background: url('images/pattern.png') 0 0 repeat;
+    padding: 90px 0;
+}
+
+#posts-comments .game-warrior {
+    flex-basis: 32%;
+    position: relative;
+}
+
+#posts-comments .game-warrior p {
+    color: #eee;
+    font-weight: 600;
+}
+
+#posts-comments .game-warrior img {
+    margin-bottom: 0.5em;
+}
+
+#posts-comments .game-warrior img.footer-graphic {
+    position: relative;
+    margin-bottom: 0;
+    width: 115%;
+    max-width: 370px;
+}
+
+#posts-comments .posts-comments-box {
+    flex-basis: 28%;
+    background-color: #252525;
+    padding: 20px 20px 25px;
+    border: 1px solid #4a4a4a;
+}
+
+#posts-comments .posts-comments-box h3 {
+    color: #eee;
+}
+
+.post-item {
+    margin-top: 25px;
+}
+
+.post-item:first-child {
+    margin-top: 0;
+}
+
+.post-item:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.post-item img {
+    float: left;
+    width: 30%;
+}
+
+.post-item > div {
+    float: left;
+    margin-left: 5%;
+    width: 65%;
+}
+
+.post-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.post-item > div p {
+    color: #eee;
+    margin: 5px 0;
+    font-size: 0.8em;
+}
+
+.post-item > div small {
+    color: #999;
+    font-size: 0.75em;
+}
+
+.comments-item {
+    margin-top: 1em;
+}
+
+.comments-item:first-child {
+    margin-top: 0;
+}
+
+.comments-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comments-item img {
+    width: 23%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.comments-item > div {
+    float: left;
+    margin-left: 7%;
+    width: 70%;
+}
+
+.comments-item > div p {
+    color: #eee;
+    font-size: 0.8em;
+    margin: 0 0 5px;
+}
+
+.comments-item > div p span {
+    color: #999;
+}
+
+.comments-item > div p span.author {
+    color: #E92159;
+}
+
+.comments-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+#posts-comments .game-warrior label{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: cursive;
+}
+#posts-comments .game-warrior label span {
+    color: orange;
+    font-weight: 300;
+    font-family: cursive;
+}
+/* comment section end  */
+/* .review-section start  */
+
+#recent-reviews {
+    background: url('images/review.png') top right no-repeat;
+    background-size: cover;
+    padding: 75px 0 50px;
+    
+}
+
+#recent-reviews h1 {
+    text-align: center;
+    margin-bottom: 1.65em;
+    font-size: 2.65rem;
+    
+}
+
+#recent-reviews .box {
+    flex-basis: 23%;
+    position: relative;
+    text-align: center;
+}
+
+#recent-reviews .box .rating-badge {
+    border-radius: 28px;
+    padding: 13px;
+    font-size: 1.5em;
+    color: #eee;
+    font-weight: 600;
+    background-color: #FFB320;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+#recent-reviews .box .rating-badge.purple {
+    background-color: #694EAE;
+}
+
+#recent-reviews .box .rating-badge.green {
+    background-color: #4EAE60;
+}
+
+#recent-reviews .box .rating-badge.violet {
+    background-color: #FF20AE;
+}
+
+#recent-reviews .box .recent-reviews-image {
+    margin-bottom: 0.75em;
+    overflow: hidden;
+}
+
+#recent-reviews .box .recent-reviews-image img {
+    width: 100%;
+}
+
+#recent-reviews .box p {
+    color: #999;
+}
+
+#scroll-top {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    color: yellow;
+    font-size: 34px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 100;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+    </style>
+</head>
+<body>
+     <!-- navigation bar -->
+     <nav>
+        <label id="logo"> <i class="fas fa-angle-double-up"></i> Sachin <span>Project</span> </label>
+      
+       </div>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="review.html">Games</a></li>
+        <li><a href="video.html">Blogs</a></li>
+        <li><a href="forums.html">Forums</a></li>
+        <li><a href="contact.html">Contact</a></li> &nbsp;&nbsp;&nbsp;&nbsp;
+        <li><button ><a href="#">Login/Register</a> </button></li>
+    </ul>
+    
+    </nav> 
+    <hr color="yellow">
+    <!-- navigation bar end -->
+
+
+      <!-- news section -->
+  <div class="news">
+    <div class="column1">Latest News</div>
+    <div class="column2"><marquee  direction="left"><span>New</span> &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     &nbsp; <span id="racing">Racing</span>&nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     &nbsp; <span id="adv">Adventure</span>&nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     &nbsp; <span id="action">Action</span>&nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   </marquee>
+    </div>
+</div>
+
+<!-- news section end  -->
+
+<!-- <hr color="yellow"> -->
+    <div class="header">
+
+        <div class="layer">
+            <div class="header1">
+                <h1>Game Reviews </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo iusto atque reiciendis  <br> nventore exercitationem eaque sit earum excepturi omnis, odio quasi velit mollitia?</p> <br><br>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- review page section start  -->
+
+    <section class="page-section review-page spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="overwatch">
+						<div class="review-cover set-bg" >
+							<div class="score yellow">9.3</div>
+                            
+						</div>
+						<div class="review-text">
+							<h4>Overwatch Halloween</h4>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star is-fade"></i>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor <br> sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="Gta">
+						<div class="review-cover set-bg" >
+							<div class="score yellow">9.3</div>
+						</div>
+						<div class="review-text">
+							<h4>Grand Theft Auto</h4>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star is-fade"></i>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor <br> sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="Avatar">
+						<div class="review-cover set-bg" >
+							<div class="score yellow">9.3</div>
+						</div>
+						<div class="review-text">
+							<h4>Avatar</h4>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star is-fade"></i>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor <br> sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="Anthem">
+						<div class="review-cover set-bg" >
+							<div class="score yellow">9.3</div>
+						</div>
+						<div class="review-text">
+							<h4>Anthem</h4>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star is-fade"></i>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor <br> sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="cyber">
+						<div class="review-cover set-bg" >
+							<div class="score yellow">9.3</div>
+						</div>
+						<div class="review-text">
+							<h4>Cyberpunk 2077</h4>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star is-fade"></i>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor <br> sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="spider">
+						<div class="review-cover set-bg">
+							<div class="score yellow">9.3</div>
+						</div>
+						<div class="review-text">
+							<h4>Spiderman</h4>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star is-fade"></i>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor <br> sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center pt-4">
+				<button class="btn">Load More</button>
+			</div>
+		</div>
+	</section>
+
+    <section id="recent-reviews">
+        <h1>Recent Reviews</h1>
+        <div class="flex">
+          <div class="box">
+            <span class="rating-badge gold">9.3</span>
+            <div class="recent-reviews-image">
+              <img src="images/assasin.jpg" />
+            </div>
+            <div>
+              <h4>Assasin's Creed</h4>
+              <p>Lorem ipsum dolor sit amet, consectectur adipiscing ipsum dolor sit amet.</p>
+            </div>
+          </div>
+    
+          <div class="box">
+            <span class="rating-badge purple">9.5</span>
+            <div class="recent-reviews-image">
+              <img src="images/assasin.jpg" />
+            </div>
+            <div>
+              <h4>Pubg</h4>
+              <p>Lorem ipsum dolor sit amet, consectectur adipiscing ipsum dolor sit amet.</p>
+            </div>
+          </div>
+    
+          <div class="box">
+            <span class="rating-badge green">9.1</span>
+            <div class="recent-reviews-image">
+              <img src="images/assasin.jpg" />
+            </div>
+            <div>
+              <h4>Ashphalt</h4>
+              <p>Lorem ipsum dolor sit amet, consectectur adipiscing ipsum dolor sit amet.</p>
+            </div>
+          </div>
+    
+          <div class="box">
+            <span class="rating-badge violet">9.7</span>
+            <div class="recent-reviews-image">
+              <img src="images/assasin.jpg" />
+            </div>
+            <div>
+              <h4>GTA</h4>
+              <p>Lorem ipsum dolor sit amet, consectectur adipiscing ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- review section end  -->
+
+    <section id="posts-comments">
+        <div class="flex">
+          <div class="game-warrior">
+            <label id="logo"> <i class="fas fa-angle-double-up"></i> Sachin <span>Project</span> </label>
+            <p>Lorem ipsum dolor sit amet, consectectur adipiscing ipsum dolor sit amet.</p>
+            <img class="footer-graphic" src="https://onclickwebdesign.com/wp-content/uploads/sword_lady_footer.png" />
+          </div>
+    
+          <div class="posts-comments-box">
+            <h3>Latest Posts</h3>
+            <div class="post-item">
+              <img src="images/dev.png" />
+              <div>
+                <h5>September 21, 2021</h5>
+                <p>Lorem ipsum dolor sit amet, consectectur adipiscing.</p>
+                <small>By: Admin</small>
+              </div>
+            </div>
+    
+            <div class="post-item">
+              <img src="images/dev.png" >
+              <div>
+                <h5>September 21, 2021</h5>
+                <p>Lorem ipsum dolor sit amet, consectectur adipiscing.</p>
+                <small>By: Admin</small>
+              </div>
+            </div>
+    
+            <div class="post-item">
+              <img src="images/dev.png">
+              <div>
+                <h5>September 21, 2021</h5>
+                <p>Lorem ipsum dolor sit amet, consectectur adipiscing.</p>
+                <small>By: Admin</small>
+              </div>
+            </div>
+          </div>
+    
+          <div class="posts-comments-box">
+            <h3>Top Comments</h3>
+            <div class="comments-item">
+              <img src="images/dev.png">
+              <div>
+                <p><span class="author">Navpreet Kaur </span> <span>on</span> Lorem ipsum dolor sit amet consectectur.</p>
+                <h5>September 1, 2021</h5>
+              </div>
+            </div>
+    
+            <div class="comments-item">
+              <img src="images/dev.png" >
+              <div>
+                <p><span class="author">Deepak </span> <span>on</span> Lorem ipsum dolor sit amet consectectur.</p>
+                <h5>September 1, 2021</h5>
+              </div>
+            </div>
+    
+            <div class="comments-item">
+              <img src="images/dev.png" >
+              <div>
+                <p><span class="author">Sachin</span> <span>on</span> Lorem ipsum dolor sit amet consectectur.</p>
+                <h5>June 21, 2021</h5>
+              </div>
+            </div>
+    
+            <div class="comments-item">
+              <img src="images/dev.png">
+              <div>
+                <p><span class="author">Sachin </span> <span>on</span> Lorem ipsum dolor sit amet consectectur.</p>
+                <h5>September 21, 2021</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a id="scroll-top" class="scroll-top-right" href="#" style="display: inline;"><span class="fa fa-angle-up" aria-label="Scroll to the top of the page"></span></a>
+</body>
+</html>

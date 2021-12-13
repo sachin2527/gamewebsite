@@ -1,0 +1,831 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* nav bar start  */
+nav{
+    height: 80px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+    border-bottom: yellow ;
+
+
+    
+}
+nav ul li {
+    display:inline-block;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 7px ;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 4px 10px ;
+    margin-right: 40px;
+
+
+}
+nav ul li button a{
+    color: black;
+}
+
+
+nav ul li a:hover{
+    color: rgb(248, 174, 14);
+    
+   
+}
+nav label{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+nav label span{
+    color: orange;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 15px ;
+    text-align: center;
+    background-color:yellow;
+    color: black;
+    margin-right: 100px;
+}
+/* nav bar end  */
+
+
+/* header image start  */
+
+
+.header{
+    background-image: url(images/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center ;
+    text-align: left center;}
+
+    .layer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.layer .header1{
+    padding-top: 30vh
+    ;
+        margin: 0 20px
+        ;
+        float: left;
+
+
+}
+.header1{
+    padding-left: 70px;
+}
+.header1 h1 {
+color: white;
+font-size: 50px;
+}
+.header1 p {
+color: white;
+}
+.header1 span {
+color: yellow;
+
+}
+
+                                    /* header image end  */
+
+
+                                /* latest news start  */
+
+
+.column1{
+width: 30%;
+box-sizing: border-box;
+background-color:yellow;
+color:black;
+font-size: 1.6em;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 300px;
+position: absolute;
+padding-top: 20px;
+font-weight: 500;
+height: 70px;
+
+
+}
+.column2{
+background-color: black;
+color: white;
+font-size: 18px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+width: 70%;
+display: inline-block;
+float: right;
+height: 70px;
+padding-top: 25px;
+
+}
+.column2 span{
+color: black;
+box-sizing: border-box;
+background-color:yellow;
+border-radius: 5px;
+padding: 5px 10px ;
+
+
+}
+#racing{
+background-color:teal;
+color:white;
+}
+#adv{
+background-color: orange;
+color: white;
+}
+#action{
+   background-color: plum;
+   color: black;
+} 
+.spad{
+   padding-top: 200px;
+   padding-bottom: 600px;
+   padding-left: 151px
+}
+
+
+                                    /* latest news end  */
+
+                /* feature game section start  */
+
+
+.row{
+position: absolute;
+box-sizing: border-box;
+
+display: flex;
+/* -ms-flex-wrap: wrap; */
+/* flex-wrap: wrap; */
+margin-right: 15px;
+margin-left: 15px;
+}
+.container {
+width: 100%;
+/* padding-right: 15px; */
+/* padding-left: 15px; */
+margin-right: auto;
+margin-left: auto;
+}
+.pubg{
+
+box-sizing: border-box;
+height: 500px;
+width: 300px;
+background-image: url(images/pubgmob.jpg);
+
+}
+.bgmi{
+
+background-color: teal;
+box-sizing: border-box;
+height: 500px;
+width: 300px;
+background-image: url(images/pubg.jpg);
+
+}
+.cod{
+background-color: sandybrown;
+box-sizing: border-box;
+height: 500px;
+width: 300px;
+background-image: url(images/cod1.jpg);
+background-size: cover;
+}
+.gta{
+background-color: teal;
+box-sizing: border-box;
+height: 500px;
+width: 300px;
+background-image: url(images/gta1.jpg);
+
+}
+.container h5{
+text-align: left;
+padding-top: 190px;
+font-size: 22px;
+}
+.cata{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 500;
+color: rgb(8, 8, 8);
+padding: 6px 25px;
+z-index: 3;
+position: relative;
+border-radius: 5px;
+margin-left: 140px
+
+
+}
+.cata.pubg{
+background:yellow;
+
+
+}
+.cata.bgmi{
+background: yellow;
+}
+.cata.cod{
+background: yellow;
+}
+.cata.gta{
+background:yellow;
+}
+.bgmi a{
+color: white;
+}
+.pubg a{
+color: white;
+}
+.cod a{
+color: white;
+}
+.gta a{
+color: white;
+}
+.gta .layer{
+width: 100%;
+    height: 69vh;
+    background-color: rgba(0, 0,0, 0.355 ;)
+}
+.cod .layer{
+width: 100%;
+    height: 69vh;
+    background-color: rgba(0, 0,0, 0.355 ;)
+}
+.pubg .layer{
+width: 100%;
+    height: 69vh;
+    background-color: rgba(0, 0,0, 0.355 ;)
+}
+.bgmi .layer{
+width: 100%;
+    height: 69vh;
+    background-color: rgba(0, 0,0, 0.355 ;)
+}
+.container p {
+color: white;
+padding-top: 50px;
+font-size: 18px;
+
+padding-left: 5px;
+
+}
+.container a{
+padding-top: 50px;
+padding-left: 10px;
+}
+        /* feature game section end  */
+
+
+
+        /* recent game section start  */
+
+
+
+.recent-game-section {
+background-color: rgba(192, 192, 192, 0.37);
+border-top: 1px solid #d6dee7;
+border-bottom: 1px solid #d6dee7;
+display: grid;
+background-image: url(images/recent.png);
+height: 80vh;
+}
+.container2{
+background-image: url(images/recent.png);
+}
+
+
+.container2 .cata {
+color: black;
+
+margin-top: -5px;
+margin-left: -10px;
+}
+.container2 .title{
+background-color:red;
+
+font-size: 22px;
+font-weight: 600;
+width: 40px;
+margin-left: 700px;   
+color: white;
+padding: 6px 65px ;
+padding-left: 5px;
+box-sizing: border-box;
+
+margin-top: 50px;
+
+}
+.cata.new{
+background-color: yellow;
+width: 120px;
+
+}
+.cata.racing{
+background-color: yellow;
+width: 90px; 
+}
+.cata.adventure{
+background-color: yellow;
+box-sizing: border-box;
+width: 150px;
+
+}
+.container2 h2{
+text-align: center;
+font-size: 40px;
+margin-top: 10px;
+font-weight: 700;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.action{
+box-sizing: border-box;
+background-color: white;
+width: 470px;
+
+margin-left: 25px;
+margin-top: 30px;
+}
+.racing{
+box-sizing: content-box;
+background-color: white;
+width: 470px;
+margin-top: 30px;
+margin-left: 20px;
+}
+.adventure{
+box-sizing: border-box;
+background-color: white;
+width: 470px;
+margin-top: 30px;
+margin-left: 20px;
+}
+.action1{
+background-image: url(images/action.jpg)
+
+;
+background-size: cover;
+width: 100%;
+height: 25vh;
+}
+.racing1{
+    background-image: url(images/racing1.png)
+    
+    ;
+    background-size: cover;
+    width: 100%;
+    height: 25vh;
+    }
+    .adventure1{
+        background-image: url(images/adventure1.jpg)
+        
+        ;
+        background-size: cover;
+        width: 100%;
+        height: 25vh;
+        }
+.container2 h5{
+/* padding-top: 50px; */
+font-size: 24px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* padding-left: 20px; */
+}
+.container2 p {
+padding-left: 20px;
+padding-top: 10px;
+}
+.container2 a{
+padding-left: 20px;
+margin-top: 5px;
+}
+.rgi-extra{
+margin-left: 430px;
+box-sizing: border-box;
+}
+.rgi-extra .star{
+background-color: coral;
+padding: 3px 10px ;
+}
+.rgi-extra .heart{
+background-color: orange;
+padding: 3px 10px ;
+}
+
+        /* recent game section end  */
+
+
+
+
+
+/* tournament section */
+
+
+
+.tournament-section{
+    background-image: url(images/pattern.png);
+    height: 60vh;
+    margin-top: 57px;
+}
+.tournament-title{
+    box-sizing: border-box;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    width: 209px;
+    padding: 6px 22px;
+    text-transform: uppercase;
+   border-radius: 4px;
+   margin-left: 700px;
+  
+
+}
+.tournament-title:hover{
+    color: black;
+   
+}
+.title{
+    box-sizing: border-box;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 20px;
+    width: 300px;
+    text-transform: uppercase;
+}
+.tournament-item{
+    background-color: #252525;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-left: 50px;
+    
+}
+.tournament-item .content {
+    padding: 38px 24px;
+    overflow: hidden;
+}
+.tournament-item .image{
+    width: 168px;
+    height: 178px;
+    background-image: url(images/war1.jpg);
+    background-size: cover;
+    float: left;
+
+}
+.tournament-item .image2{
+    width: 168px;
+    height: 178px;
+    background-image: url(images/doom.jpg);
+    background-size: cover;
+    float: left;}
+.tournament-item .details {
+    padding-left: 225px;
+}
+.details h4{
+    color: orange;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.details ul{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: list-item;
+    margin-bottom: 20px;
+   
+}
+.details span{
+    color: gray;
+}
+.details p span {
+    color: orange;
+}
+.details p {
+    color: gray;
+    margin-top: 10px;
+}
+/* .tournament-section end  */
+
+/* .review-section start  */
+
+#recent-reviews {
+    background: url('images/review.png') top right no-repeat;
+    background-size: cover;
+    padding: 75px 0 50px;
+}
+
+#recent-reviews h1 {
+    text-align: center;
+    margin-bottom: 1.65em;
+    font-size: 2.65rem;
+    
+}
+
+#recent-reviews .box {
+    flex-basis: 23%;
+    position: relative;
+    text-align: center;
+}
+
+#recent-reviews .box .rating-badge {
+    border-radius: 28px;
+    padding: 13px;
+    font-size: 1.5em;
+    color: #eee;
+    font-weight: 600;
+    background-color: #FFB320;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+#recent-reviews .box .rating-badge.purple {
+    background-color: #694EAE;
+}
+
+#recent-reviews .box .rating-badge.green {
+    background-color: #4EAE60;
+}
+
+#recent-reviews .box .rating-badge.violet {
+    background-color: #FF20AE;
+}
+
+#recent-reviews .box .recent-reviews-image {
+    margin-bottom: 0.75em;
+    overflow: hidden;
+}
+
+#recent-reviews .box .recent-reviews-image img {
+    width: 100%;
+}
+
+#recent-reviews .box p {
+    color: #999;
+}
+/* review section end  */
+
+/* comments section start  */
+
+#posts-comments {
+    background: url('images/pattern.png') 0 0 repeat;
+    padding: 90px 0;
+}
+
+#posts-comments .game-warrior {
+    flex-basis: 32%;
+    position: relative;
+}
+
+#posts-comments .game-warrior p {
+    color: #eee;
+    font-weight: 600;
+}
+
+#posts-comments .game-warrior img {
+    margin-bottom: 0.5em;
+}
+
+#posts-comments .game-warrior img.footer-graphic {
+    position: absolute;
+    margin-bottom: 0;
+    width: 115%;
+}
+
+#posts-comments .posts-comments-box {
+    flex-basis: 28%;
+    background-color: #252525;
+    padding: 20px 20px 25px;
+    border: 1px solid #4a4a4a;
+}
+
+#posts-comments .posts-comments-box h3 {
+    color: #eee;
+}
+
+.post-item {
+    margin-top: 25px;
+}
+
+.post-item:first-child {
+    margin-top: 0;
+}
+
+.post-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.post-item img {
+    float: left;
+    width: 30%;
+}
+
+.post-item > div {
+    float: left;
+    margin-left: 5%;
+    width: 65%;
+}
+
+.post-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.post-item > div p {
+    color: #eee;
+    margin: 5px 0;
+    font-size: 0.8em;
+}
+
+.post-item > div small {
+    color: #999;
+    font-size: 0.75em;
+}
+
+.comments-item {
+    margin-top: 1em;
+}
+
+.comments-item:first-child {
+    margin-top: 0;
+}
+
+.comments-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comments-item img {
+    width: 23%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.comments-item > div {
+    float: left;
+    margin-left: 7%;
+    width: 70%;
+}
+
+.comments-item > div p {
+    color: #eee;
+    font-size: 0.8em;
+    margin: 0 0 5px;
+}
+
+.comments-item > div p span {
+    color: #999;
+}
+
+.comments-item > div p span.author {
+    color: #E92159;
+}
+
+.comments-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+#posts-comments .game-warrior label{
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: cursive;
+}
+#posts-comments .game-warrior label span {
+    color: orange;
+    font-weight: 300;
+    font-family: cursive;
+}
+/* comment section end  */
+
+
+
+/* footer start  */
+
+
+.info{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 20px ;
+    font-size: 22px ;
+}
+
+
+#scroll-top {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    z-index: 100;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+
+/* for mobiles  */
+@media (max-width: 768px){
+
+nav{
+    height: 80%;
+    width: 64vw;
+}
+    nav label{
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        /* margin-left: 30px; */
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        margin: 0px 7px ;
+        font-size: .8em;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: 4px 10px ;
+        /* margin-right: 40px; */
+    
+    
+    }
+    nav li button {
+        padding: 2px 5px ;
+    }
+     nav #logo{
+     margin-left: -5px;
+    }
+    .header1 {
+        /* padding-left: 70px; */
+        width: 50%;
+    }
+    .header{
+        background-size: cover;
+    }
+    .header1 h1 {
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    }
+    .header1 p {
+    color: white;
+    font-size: 20px;
+    }
+    .header1 span {
+    color: yellow;
+    
+    }
+    
+    
+}
